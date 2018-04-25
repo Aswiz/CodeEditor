@@ -16,10 +16,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-notify": "^3.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0"
-  },
-  "dependencies": {
     "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
     "node-sass": "^4.8.3"
   }
 }
