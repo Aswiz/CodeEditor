@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Culculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+<!-- 	<h1>Hello!</h1> -->
+	<div style="background-color: #7F7F7F; width: 244px; height: 366px;">
+		<div class="DivStyle1">
+			<input id="inputNumber" class="Input" disabled="">
+			<input id="inputNumber2" class="Input2" disabled="">
+		</div>
+		<div class="DivStyle1">
+			<button class="operationsButton" style="left: 0px;" onclick="clearNumber()">AC</button>
+			<button class="operationsButton" value="%" onclick="operations(value)">%</button>
+			<button class="operationsButton" value="÷" onclick="math_operations(value)">÷</button>
+			<button class="operationsButton" value="x" onclick="math_operations(value)">x</button>
+		</div>
+		<div class="DivStyle1">
+			<button class="numberButton1" value="7" onclick="input(value)">7</button>
+			<button class="numberButton1" value="8" onclick="input(value)">8</button>
+			<button class="numberButton1" value="9" onclick="input(value)">9</button>
+			<button class="operationsButton" value="-" onclick="math_operations(value)">-</button>
+		</div>
+		<div class="DivStyle1">
+			<button class="numberButton1" value="4" onclick="input(value)">4</button>
+			<button class="numberButton1" value="5" onclick="input(value)">5</button>
+			<button class="numberButton1" value="6" onclick="input(value)">6</button>
+			<button class="operationsButton" value="+" onclick="math_operations(value)">+</button>
+		</div>
+		<div class="DivStyle2">
+			<button class="numberButton2" value="1" onclick="input(1)">1</button>
+			<button class="numberButton2" value="2" onclick="input(value)">2</button>
+			<button class="numberButton2" value="3" onclick="input(value)">3</button>
+		</div>
+		<div class="DivStyle2">
+			<button class="numberButton2" value="0" onclick="input(value)">0</button>
+			<button class="numberButton2" value="." onclick="on_pushButton_dot_clicked()">.</button>
+			<button class="numberButton2" value="±" onclick="operations(value)">±</button>
+		</div>
+		<div class="DivStyle3">
+			<button class="equalSign" value="=" onclick="equal1()">=</button>
+		</div>
+
+	</div>
+
+</body>
+</html>

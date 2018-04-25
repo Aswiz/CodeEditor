@@ -1,0 +1,64 @@
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+.buttons
+	&__container
+		height: 5vh
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: stretch
+	&-load__button
+		background-color: #000
+		color: #fcac45
+		border: none
+		border-right: 2px solid gray
+		transition: 0.25s
+		font-size: 0.95em
+		font-weight: bold
+		width: 25%
+		&:hover
+			color: #FFD194
+		&:active
+			color: #FF9000
+
+.mirror
+	&__container
+		display: flex
+	&-textarea__container
+		height: 95vh
+		width: 50%
+		background-color: white
+		border: 1px solid gray
+	&-iframe
+		height: 100%
+		width: 100%	
+		border: none
+.textarea__container
+	&-textarea
+		background-color: #ffffff;
+		font-size: 15px;
+		height: 100%;
+		width: 100%;
+		padding: 8px;
+		resize: none;
+		border: none;
+		line-height: normal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media" // Всегда в конце

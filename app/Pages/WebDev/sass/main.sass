@@ -1,0 +1,349 @@
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+$bgc: #111;
+$orange: #fcac45;
+*
+	margin: 0
+	padding: 0
+
+
+a
+	text-decoration: none
+
+li
+	list-style: none;
+
+body
+	font-family: 'Open Sans', sans-serif
+
+
+	
+.header
+	width: 100%
+	background-color: $bgc
+	display: flex
+	&-logo
+		text-transform: uppercase
+		color: #fff
+		font-weight: 800
+		font-size: 24px
+		cursor: pointer
+		margin-top: 56px
+		margin-left: 12%
+	&-nav
+		margin-top: 56px
+		margin-left: 29%
+
+.topnav
+	a
+		color: #FFF
+		text-align: center
+		padding: 12px 16px
+		text-transform: uppercase
+		font-size: 14px
+		font-weight: bold
+		border-bottom: 3px solid $bgc
+		&:hover
+			border-bottom: 3px solid $orange
+	.icon
+		display: none
+
+.section-welcome
+	background-color: $bgc
+	color: #999999
+	text-align: center
+	padding-top: 210px
+	padding-bottom: 420px
+	h1
+		margin: 0
+		font-size: 44px
+		text-transform: uppercase
+	&-mycompany
+		color: $orange
+	p
+		font-size: 20px
+		color: #FFF
+.section-about
+	padding-top: 100px
+	padding-bottom: 100px
+	&-mac
+		width: 512px
+		margin-right: 2%
+	&-somewords
+		width: 405px
+		h1
+			font-size: 34px
+			color: #222222
+			border-bottom: 3px solid $orange
+			text-transform: uppercase
+			font-weight: 100
+			margin-bottom: 32px
+			span
+				font-weight: bold
+		p
+			font-size: 18px
+			color: #6c6c6c
+			margin-bottom: 45px
+		ul
+			type: disc
+		li
+			font-style: italic
+			color: #5a5a5a
+			font-size: 16px
+			span
+				font-weight: 600
+				font-style: normal
+				font-size: 18px
+		&-list
+			margin-right: 10px
+	&-container
+		display: flex
+		flex-wrap: wrap
+		width: 76%
+		justify-content: space-around
+		margin: auto
+
+.section-team	
+	background-color: $bgc
+	color: #FFF
+	padding-top: 100px
+	h1
+		text-align: center
+		font-size: 44px
+		font-weight: 600
+		width: 100%
+		text-transform: uppercase
+		span
+			border-bottom: 5px solid $orange
+			padding-bottom: 25px
+	&-container
+		padding-top: 100px
+		padding-bottom: 100px
+		display: flex
+		flex-wrap: no-wrap
+		text-align: center
+		justify-content: space-around
+		&-item
+			margin: 0 15px
+			width: 250px
+			margin-bottom: 50px
+			h2
+				font-size: 20px
+				font-weight: bold
+				line-height: 1
+			&-svg
+				margin: auto
+				width: 128px
+				margin-bottom: 10px
+			h3
+				font-size: 16px
+				margin-bottom: 25px
+			p
+				font-size: 14px
+
+.section-services	
+	background-color: #FFF
+	color: $bgc
+	padding-top: 100px
+	text-align: center
+	h1
+		text-align: center
+		font-size: 44px
+		font-weight: 600
+		width: 100%
+		text-transform: uppercase
+		margin-bottom: 2.25em
+		span
+			border-bottom: 5px solid $orange
+			padding-bottom: 25px
+	p
+		font-size: 16px
+		font-style: italic
+		color: #6c6c6c
+	&-item
+		margin: 0 15px
+		width: 250px
+		margin-bottom: 50px
+		h2
+			font-size: 20px
+			font-weight: bold
+			line-height: 2.5
+			text-transform: uppercase
+			color: #222222
+		p
+			font-size: 14px
+			font-style: normal
+			color: #222222
+
+.section-clients
+	background-color: $bgc
+	color: white
+	padding-top: 100px
+	text-align: center
+	h1
+		text-align: center
+		font-size: 44px
+		font-weight: 600
+		width: 100%
+		text-transform: uppercase
+		margin-bottom: 1.5em
+	&-h1-span1
+		font-weight: 300
+	&-h1-span2
+		border-bottom: 5px solid $orange
+		padding-bottom: 25px
+	&-item
+		margin: 0 15px
+		width: 250px
+		margin-bottom: 50px
+
+.section-work
+	background-color: white
+	color: #222222
+	padding-top: 100px
+	text-align: center
+	h1
+		text-align: center
+		font-size: 44px
+		font-weight: 600
+		width: 100%
+		text-transform: uppercase
+		margin-bottom: 1.5em
+	&-h1-span1
+		font-weight: 300
+	&-h1-span2
+		border-bottom: 5px solid $orange
+		padding-bottom: 25px
+	&-item
+		margin: 0 15px
+		width: 337px
+		margin-bottom: 50px
+	.container
+		.flex_container
+			flex-wrap: wrap
+
+.section-comment
+	background-color: $bgc
+	color: white
+	padding-top: 100px
+	padding-bottom: 175px
+	text-align: center
+	h1
+		text-align: center
+		font-size: 44px
+		font-weight: 600
+		width: 100%
+		text-transform: uppercase
+		margin-bottom: 1.5em
+	h2
+		font-size: 18px
+		text-transform: uppercase
+		color: #e7e7e7
+	h3
+		color: #b2b2b2
+		font-size: 18px
+	&-bold
+		font-weight: 600
+	&-light
+		font-weight: 300
+	&-h1-span1
+		font-weight: 300
+	&-h1-span2
+		border-bottom: 5px solid $orange
+		padding-bottom: 25px
+
+
+
+.section-contact-wrapper
+	height: auto
+	width: 753px;
+	margin: auto;
+	text-align: center
+	h1
+		font-size: 44px
+		font-weight: 600
+		color: #222222
+	p
+		font-size: 16px
+		font-style: italic
+		color: #6c6c6c
+	&-form__inputs
+		display: flex
+		justify-content: center
+		p
+			font-size: 14px
+			font-style: normal
+			color: #6c6c6c
+			text-align: left
+			input
+				height: 40px
+				width: 360px
+			&:first-of-type
+				margin-right: 23px	
+
+	textarea
+		height: 165px
+		width: 100%
+	.red
+		color: #FF0000
+
+
+
+
+
+
+
+
+.social_icons
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background-image: url("../img/icons.png")
+.icon_vk
+	background-position: 0 0
+.icon_fb
+	background-position: -81px 0
+.icon_google
+	background-position: -161px 0
+.icon_tw
+	background-position: -121px 0
+	width: 31px;
+.icon_in
+	background-position: -81px -40px
+	height: 31px
+footer
+	background-color: #222222
+	padding: 30px 0
+
+.social
+	display: flex
+	justify-content: center
+
+
+
+.container
+		width: 75%
+		margin: auto
+
+.flex_container
+	padding-top: 100px
+	padding-bottom: 100px
+	display: flex
+	flex-wrap: no-wrap
+	justify-content: space-around
+
+
+
+
+
+
+
+
+@import "media" // Всегда в конце
+
+
